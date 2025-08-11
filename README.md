@@ -29,8 +29,8 @@ The model is trained on **synthetic data** and uses **Linear Regression** with p
 ---
 
 ## Project Structure
-  ride_eta_model.pkl # Trained model file
-  encoder.pkl # OneHotEncoder object
-  streamlit_app.py # Streamlit application
-  requirements.txt # Python dependencies
-  README.md # Project documentation
+- **ride_eta_model.pkl** # Trained model file
+- **encoder.pkl** # OneHotEncoder object
+- **streamlit_app.py** # Streamlit application
+- **requirements.txt** # Python dependencies
+- **README.md** # Project documentation
