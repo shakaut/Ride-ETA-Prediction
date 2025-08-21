@@ -5,7 +5,7 @@ import numpy as np
 model = joblib.load('ride_eta_model.pkl')
 encoder = joblib.load('encoder.pkl')
 
-st.subheader('Ride ETA (estimated time of arrival) Prediction App')
+st.subheader('Ride ETA Prediction App')
 
 distance = st.number_input('Distance (km)', min_value=0.5, max_value=15.0, step=0.5)
 traffic = st.selectbox('Traffic', ['low', 'medium', 'high'])
@@ -24,3 +24,4 @@ if st.button('Predict ETA'):
 
 
     st.success(f'Estimated Time of Arrival: {round(prediction, 1)} minutes')
+
