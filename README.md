@@ -1,6 +1,6 @@
 Test the App Here: https://ride-eta-prediction.streamlit.app/
 
-# Ride ETA Prediction App
+# Ride ETA (Estimated Time of Arrival) Prediction App
 
 A **Streamlit web application** that predicts the **Estimated Time of Arrival (ETA)** for a ride based on:
 - Distance (in km)
