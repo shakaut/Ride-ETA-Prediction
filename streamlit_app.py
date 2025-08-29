@@ -6,6 +6,8 @@ model = joblib.load('ride_eta_model.pkl')
 encoder = joblib.load('encoder.pkl')
 
 st.subheader('Ride ETA Prediction App')
+st.write('ETA = Estimated Time of Arrival')
+st.write('')
 
 distance = st.number_input('Distance (km)', min_value=0.5, max_value=15.0, step=0.5)
 traffic = st.selectbox('Traffic', ['low', 'medium', 'high'])
