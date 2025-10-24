@@ -1,4 +1,4 @@
-Test the App Here: https://ride-eta-prediction.streamlit.app/  This app has gone to sleep due to inactivity
+Test the App Here: https://ride-eta-prediction.streamlit.app/    (The app may sleep due to inactivity. Click the Wake Up button to test it)
 
 # Ride ETA (Estimated Time of Arrival) Prediction App
 
