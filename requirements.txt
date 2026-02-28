@@ -4,3 +4,4 @@ streamlit
 numpy
 altair==4.2.2
 scikit-learn
+python-3.12
